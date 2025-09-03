@@ -156,7 +156,7 @@ export default function Home() {
                 </span>
                 <div className="flex-1">
                   <p className="text-sm font-medium text-gray-400">Phone Number</p>
-                  <a href="tel:09122072401" className="text-white hover:text-purple-400 transition-colors">+2349122072401</a>
+                  <a href="tel:09122072401" className="text-white hover:text-purple-400 transition-colors">+234910000234</a>
                 </div>
               </div>
             </div>
