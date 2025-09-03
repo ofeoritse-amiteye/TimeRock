@@ -143,7 +143,7 @@ export default function Home() {
                 </span>
                 <div className="flex-1">
                   <p className="text-sm font-medium text-gray-400">Email Address</p>
-                  <a href="mailto:info@timerock.com" className="text-white hover:text-blue-400 transition-colors">info@timerock.com</a>
+                  <a href="mailto:Timerockfamilyentertainment@gmail.com" className="text-white hover:text-blue-400 transition-colors">Timerockfamilyentertainment@gmail.com</a>
                 </div>
               </div>
 
