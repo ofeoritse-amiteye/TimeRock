@@ -12,6 +12,9 @@ const bricolage = Bricolage_Grotesque({
 export const metadata: Metadata = {
   title: "TimeRockFamilyEntertainment",
   description: "Where creative ideas become unforgettable experiences",
+    icons: {
+    icon: '/timerocj-bg.png'
+  }
 };
 
 export default function RootLayout({
