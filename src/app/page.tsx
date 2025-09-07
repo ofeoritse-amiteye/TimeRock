@@ -133,13 +133,11 @@ export default function Home() {
             <p className="text-lg text-gray-300">
               We’d love to hear from you.
             </p>
-            <div className="space-y-4 text-left w-full max-w-xs">
+            <div className="space-y-4 text-left w-full max-w-sm">
               {/* Email */}
               <div className="flex items-center space-x-3">
                 <span className="p-3 rounded-full bg-blue-500/20 text-blue-400">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 8h18a2 2 0 002-2V6a2 2 0 00-2-2H3a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
+                  <Image src={"/email.png"} alt="email logo" width={25} height={50}/>
                 </span>
                 <div className="flex-1">
                   <p className="text-sm font-medium text-gray-400">Email Address</p>
@@ -150,15 +148,27 @@ export default function Home() {
               {/* Phone Number */}
               <div className="flex items-center space-x-3">
                 <span className="p-3 rounded-full bg-purple-500/20 text-purple-400">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.99 1.15l-1.13 5.46a2 2 0 00.72 1.94l2.57 2.57a2 2 0 001.94.72l5.46-1.13a1 1 0 011.15.99V19a2 2 0 01-2 2h-1a15 15 0 01-14-14V3z" />
-                  </svg>
+                  <Image src={"/phone.png"} alt="phone logo" width={25} height={50}/>
                 </span>
                 <div className="flex-1">
                   <p className="text-sm font-medium text-gray-400">Phone Number</p>
                   <a href="tel:09122072401" className="text-white hover:text-purple-400 transition-colors">+234910000234</a>
                 </div>
               </div>
+              
+              {/* Instagram */}
+              <div className="flex items-center space-x-3">
+                <span className="p-3 rounded-full bg-pink-500/20 text-pink-400">
+                  <Image src={"/ig.png"} alt="instagram logo" width={25} height={50}/>
+                </span>
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-gray-400">Instagram Page</p>
+                  <a href="https://www.instagram.com/timerockfamilyentertainment" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400 transition-colors">
+                    @timerockfamilyentertainment
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
