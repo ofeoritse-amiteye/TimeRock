@@ -12,12 +12,19 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-neutral-950/70 backdrop-blur-md border-b border-white/10 transition-all duration-300">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between min-h-[64px]">
         {/* Logo and Brand Name */}
           {/* Using a custom gradient text logo to match the hero section */}
-          <span className="text-2xl font-bold bg-clip-text text-white font-['Bricolage_Grotesque'] flex items-center">
+          <span className="text-2xl font-bold bg-clip-text text-white font-['Bricolage_Grotesque'] flex items-center gap-2">
             TimeRock
-            <Image src={"/timerock-bg.png"} alt="" width={50} height={200}/>
+            <Image 
+              src={"/timerock-bg.png"} 
+              alt="" 
+              width={40} 
+              height={40}
+              className="h-8 w-auto object-contain"
+              priority
+            />
           </span>
             
         {/* Desktop Navigation Links */}
