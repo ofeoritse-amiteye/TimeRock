@@ -36,9 +36,9 @@ export default function Home() {
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold mb-4 animate-fade-in-up drop-shadow-lg font-['Bricolage_Grotesque']">
             Where Ideas Become Experiences
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl mb-8 font-light max-w-2xl mx-auto animate-fade-in-up animation-delay-300">
-            Where creative ideas become unforgettable experiences.
-          </p>
+          <i className="text-lg sm:text-xl md:text-2xl mb-8 font-light max-w-2xl mx-auto animate-fade-in-up animation-delay-300">
+            turn your creative ideas into unforgettable experiences.
+          </i>
           <a
             href="#services"
             className="inline-block bg-white text-neutral-950 font-semibold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-neutral-200 animate-fade-in-up animation-delay-600"
