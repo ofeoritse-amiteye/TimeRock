@@ -39,6 +39,7 @@ export default function Home() {
           <i className="text-lg sm:text-xl md:text-2xl mb-8 font-light max-w-2xl mx-auto animate-fade-in-up animation-delay-300">
             turn your creative ideas into unforgettable experiences.
           </i>
+          <br/>
           <a
             href="#services"
             className="inline-block bg-white text-neutral-950 font-semibold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-neutral-200 animate-fade-in-up animation-delay-600"
