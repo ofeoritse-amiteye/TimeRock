@@ -17,7 +17,7 @@ LayerTechFrontendReactStylingCSS / Inline stylesBundlerVite / Create React App
 
 🚀 Getting Started
 bash# Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/ofeoritse-amiteye/TimeRock
 cd your-repo-name
 
 # Install dependencies
